@@ -1,0 +1,2 @@
+const repl : any = require('repl');
+const chalk : any = require('chalk');
