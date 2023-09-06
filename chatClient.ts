@@ -6,6 +6,7 @@ socket.on('connect', ()=> {
     console.log('----now chat-----');
 });
 
+//initalizing socket con
 socket.on('disconnect', ()=> {
     socket.emit('disconnect');
 });
